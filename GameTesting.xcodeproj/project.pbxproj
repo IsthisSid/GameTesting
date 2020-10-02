@@ -10,6 +10,7 @@
 		1C5D4A8F13C63F9BB549F067 /* Pods_GameTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FEC58BB253E1441CC06489 /* Pods_GameTesting.framework */; };
 		303F000D9F6ED3CB128370DC /* Pods_GameTestingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760C81B03D32424AD6FD4972 /* Pods_GameTestingTests.framework */; };
 		8C626FF7A611F5AE4EBF9FA8 /* Pods_GameTesting_GameTestingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5DE8BD527EA727E26E244B /* Pods_GameTesting_GameTestingUITests.framework */; };
+		FF5B9198252784FC00462DE7 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5B9197252784FC00462DE7 /* MainMenuScene.swift */; };
 		FFEA1CC2252103DA00E007E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEA1CC1252103DA00E007E8 /* AppDelegate.swift */; };
 		FFEA1CC4252103DA00E007E8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFEA1CC3252103DA00E007E8 /* GameScene.sks */; };
 		FFEA1CC6252103DA00E007E8 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFEA1CC5252103DA00E007E8 /* Actions.sks */; };
@@ -51,6 +52,7 @@
 		A708AA4C3EFC7D4A270DD677 /* Pods-GameTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameTesting.release.xcconfig"; path = "Target Support Files/Pods-GameTesting/Pods-GameTesting.release.xcconfig"; sourceTree = "<group>"; };
 		EA5DE8BD527EA727E26E244B /* Pods_GameTesting_GameTestingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameTesting_GameTestingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73EEC110899DD66D584EAC6 /* Pods-GameTesting-GameTestingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameTesting-GameTestingUITests.debug.xcconfig"; path = "Target Support Files/Pods-GameTesting-GameTestingUITests/Pods-GameTesting-GameTestingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF5B9197252784FC00462DE7 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 		FFEA1CBE252103DA00E007E8 /* GameTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEA1CC1252103DA00E007E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFEA1CC3252103DA00E007E8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -109,7 +111,6 @@
 				778B20923DAA5C9ACDF67CD7 /* Pods-GameTestingTests.debug.xcconfig */,
 				26E3B67CBDE51797EF189E0D /* Pods-GameTestingTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -159,6 +160,7 @@
 				FFEA1CF5252144AC00E007E8 /* player.atlas */,
 				FFEA1CD0252103DE00E007E8 /* Info.plist */,
 				FFEA1D132522482F00E007E8 /* CoinSound.mp3 */,
+				FF5B9197252784FC00462DE7 /* MainMenuScene.swift */,
 			);
 			path = GameTesting;
 			sourceTree = "<group>";
@@ -386,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5B9198252784FC00462DE7 /* MainMenuScene.swift in Sources */,
 				FFEA1CFB2521454300E007E8 /* GameElements.swift in Sources */,
 				FFEA1CC8252103DA00E007E8 /* GameScene.swift in Sources */,
 				FFEA1CCA252103DA00E007E8 /* GameViewController.swift in Sources */,
